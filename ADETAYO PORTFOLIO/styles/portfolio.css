@@ -1,0 +1,281 @@
+:root {
+    --branding-color: #e59560;
+    --secondary-color: #F3F6E8;
+    --heading-font-family: 'Playfair Display', serif;
+    --default-font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--default-font-family);
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--heading-font-family);
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 96px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 64px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+h3 {
+    color: #29292a;
+    font-family: var(--default-font-family);
+    font-weight: 200
+}
+
+h4 {
+    font-size: 48px;
+}
+
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.hero {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 100px 20px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("https://images.rawpixel.com/image_400/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvam9iNTU1LW5hdHRoYS0wMS5qcGc.jpg");
+}
+
+.hero p {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+}
+
+.glance {
+    font-weight: 500px;
+    font-size: 28px;
+    line-height: 30px;
+    color: #680747;
+    font-family: var(--heading-font-family);
+}
+
+.hero h2 {
+    font-family: var(--heading-font-family);
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 2;
+}
+
+.content-container {
+    padding: 30px 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.content h1 {
+    font-size: 54px;
+    line-height: 80px;
+}
+
+.content h2 {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: var(--default-font-family);
+}
+
+.content h3 {
+    font-size: 25px;
+    line-height: 1;
+    margin: 20px 0 0;
+    font-weight: 500;
+    font-family: var(--heading-font-family);
+}
+
+.content p {
+    font-size: 17px;
+}
+
+.hi-about {
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.content {
+    margin: 30px;
+}
+
+.btn-branding {
+    background: var(--branding-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.btn-branding-outline {
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.project-description {
+    padding: 120px 60px;
+}
+
+.logo {
+    max-height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #29292a;
+}
+
+nav {
+    padding: 13px 0;
+}
+
+h6 a {
+    text-decoration: underline;
+    color: #e59560;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 17px;
+    font-weight: 600;
+}
+
+nav a {
+    text-decoration: none;
+    color: #29292a;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    color: var(--branding-color);
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer .email-link {
+    font-size: 24px;
+}
+
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+
+footer {
+    margin: 0 auto;
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: #680747;
+    ;
+    padding: 10px 14px;
+    font-size: 24px;
+    border-radius: 50%;
+    background: var(--secondary-color);
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: white;
+    background: var(--branding-color);
+}
+
+footer .contact-box {
+    background: #680747;
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
+@media(max-width: 900px) {
+    h1 {
+        font-size: 50px;
+        line-height: 56px;
+    }
+    h2 {
+        font-size: 44px;
+    }
+    h4 {
+        font-size: 26px;
+    }
+    h6 {
+        text-align: center;
+        padding-right: 30px;
+    }
+    .hero p {
+        font-size: 24px;
+    }
+    .hero {
+        padding: 80px 20px;
+    }
+    .glance {
+        font-size: 20px;
+    }
+    .content {
+        text-align: center;
+        padding: 0;
+    }
+    .content h1 {
+        font-size: 40px;
+        margin: 0;
+        line-height: 50px;
+    }
+    .content h3 {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .project-description {
+        padding: 0;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .victory-hand {
+        display: none;
+    }
+}
+
+@media(max-width: 500px) {
+    footer {
+        margin-top: 40px;
+    }
+}
